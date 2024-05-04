@@ -6,7 +6,7 @@ import { AddCategory, GifGrid } from "./components";
 
 export const GiftApp = () => {
 
-    const [categories, setCategories] = useState([]); 
+    const [categories, setCategories] = useState(['Friederich Nietzsche']); 
 
     const onAddCategory = (newCategory) => {
 
@@ -25,9 +25,7 @@ export const GiftApp = () => {
                       <GifGrid key={category} category={category} />
                     ))
                 }
-            
-                {/* Gift Item */}
-                    {/* Item */}
+
     </>
 
   )
